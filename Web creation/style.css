@@ -1,0 +1,139 @@
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+body {
+    background-color: #f0f0f0;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.hero, header, footer {
+    background-color: #1F2937;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding: 0 130px;
+    margin: 0;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    text-align: center;
+    padding: 0 180px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.hero .words h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero p, .nav li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero img {
+    max-width: 40%;
+    height: 400px;
+}
+
+.hero .words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.information {
+    padding-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 0 110px;
+}
+
+.card img{
+    width: 230px;
+    height: auto;
+}
+
+.qoute {
+    text-align: center;
+    padding: 40px 150px;
+    background-color: #E5E7EB;
+}
+
+.qoute h3 {
+    font-size: 1.5rem;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.qoute blockquote {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px 110px;
+    line-height: 1.5;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 40px 30px;
+    margin: 60px 180px;
+}
+
+.action button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3882F6;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 130px;
+}
